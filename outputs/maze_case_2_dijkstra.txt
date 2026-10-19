@@ -1,0 +1,32 @@
+Algorithm: Dijkstra
+Case: 2
+Grid: 20 x 20
+Obstacle density: 21.0%
+Path found: True
+Path steps: 38
+Expanded nodes: 314
+Expanded node density: 78.50%
+Runtime: 0.9297 ms
+
+Legend: S=start, G=goal, #=wall, o=explored, *=path
+
+S**#ooo#oooooooo#ooo
+oo*#oo#oooooooo#o#oo
+o#*#oooooo##o#ooooo#
+oo***#oo#ooooo##o#oo
+o#oo*##o#o##ooo#ooo#
+ooo#*********ooo##oo
+oooooooo#o##*oo#o#o#
+ooo#o#oooooo*##oo#oo
+o##ooo#o#oo#*#o#oooo
+oooooooooooo****oooo
+#oooooooooooooo*o#oo
+ooooo#ooooo#o##*oo#o
+#oo#o#ooooooooo*oooo
+.#ooo#ooooooooo*##oo
+#oooooooo#ooooo*#ooo
+oo#ooo#oooooooo**#oo
+o#o#o#oo#oo#oooo**oo
+ooooooooooo#oo#oo*#o
+oooo#o#oo#ooooooo**#
+oooo#ooo#ooo#oo#o#*G

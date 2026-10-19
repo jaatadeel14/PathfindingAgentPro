@@ -1,0 +1,42 @@
+Algorithm: Dijkstra
+Case: 3
+Grid: 30 x 30
+Obstacle density: 21.2%
+Path found: True
+Path steps: 58
+Expanded nodes: 704
+Expanded node density: 78.22%
+Runtime: 1.8501 ms
+
+Legend: S=start, G=goal, #=wall, o=explored, *=path
+
+S*o##o#oooo#ooo#.#oooooooooooo
+o*#oooooooo#oo#.#ooooooooooooo
+o*****###ooo#oo#o#oooooo#oooo#
+ooo#o**oooo##oooooo#ooo#.#oooo
+#oo#oo*o#oo#oo#o#o#ooooo#ooo#o
+#o#ooo*oooo#ooooo#ooo#ooo#ooo#
+#o#ooo*#ooo#ooo#ooo#oooooooooo
+o#oo#o**#o#oooo#ooooooo##o#ooo
+ooooooo**#oooooo#ooo#oo#oo#ooo
+##oooooo*o#o#ooo#ooooooooooooo
+#ooooo##*o#oooo###oooooooooooo
+oooo#ooo*##oooooo#ooooooo#oooo
+ooo#oooo****#o#o##ooo#o##o#ooo
+o###oooo##o*o##oo###ooo#oo#oo#
+oooooo#oooo*o#ooo####ooooooooo
+o#oooooooo#*#oooo##oooooooooo#
+oooo#ooo#oo***#oooooo#oooooooo
+oooooo#ooooo#*********ooo#oooo
+ooo#ooo#oo#ooo#oo#ooo*ooo#oooo
+oo#o#ooooo#oooooooo#o*o#oooooo
+oooo#oooooo#o#ooooooo*##oooooo
+oo#ooooooo#oooo#oooo#**ooo#ooo
+ooo#oooooooooooooooooo*#ooooo#
+#o###o#oo#oooooo#o#ooo**oooooo
+#oooooooooo#oo#ooooo###*#####o
+.#ooooooo#oooo##oooo#o#*##oooo
+#ooooooo#ooooo#o###oooo******#
+oooooooo#ooooooooo#ooo#ooooo*o
+oooooooo#ooooo#o#ooooo#oo#oo*#
+oo#ooo##ooooo#ooo#ooooo#ooo#*G

@@ -1,0 +1,72 @@
+Algorithm: Dijkstra
+Case: 6
+Grid: 60 x 60
+Obstacle density: 29.2%
+Path found: False
+Path steps: None
+Expanded nodes: 2415
+Expanded node density: 67.08%
+Runtime: 5.8817 ms
+
+Legend: S=start, G=goal, #=wall, o=explored, *=path
+
+Soo#o#ooo###oooooooo#ooo#ooo#oo#o#oo####oo#oooooo#oo#.#..###
+ooo#oo#o##oooooooooooo#o#oooooooo##ooooooooooooo##oo#...###.
+o#ooooooooo##oo#o#oooo#ooooooooo#oo##ooo#ooooooooooo#.##ooo#
+oooo#ooooo#o#ooooooooooo#o#ooo##oo#ooooooo##o#ooooooo###ooo#
+##o#oooo#ooooo#o#o#oo##o##oo#oo#oooooooooo#oo#oooo#oo#oooooo
+#.##oo#ooooooo##o#oooo#o##o##oooo###oo#ooooooooo#oo#ooo###oo
+#..#ooo#ooo#ooooooooooo##ooo#oooooo##o##ooo#oooo#oo##oooo#o#
+#..#oo#oo#o#oooo#oo#o#o##oo#oo#oo#ooooo#o#oooooooo####o#o#oo
+.###o###ooooooooooo#o#oo##oooo#o#oooo##oo#ooooo#oooo#ooooooo
+...#oooo###oo###o#ooooooo##oo#oooooooo#o#ooo#oooo###oooooooo
+.#.##oo#oooooo##oo##ooo#ooo#oooo#oo###o#oo#ooooooo#oooooo##o
+.###ooo#o#oooo##oo###oo##o#.##ooooo#ooo###o#oooooooooooooooo
+##o#oo##o#o##o###oooooooo#.#oooooooo#o#..#o##oooo#oooooooo##
+ooooooo#o#oooooooooo#o#ooo#oooooooooooo##ooooo###oo#o#oooo#o
+oo#o#o###o#o#ooo#oo#ooo##o#ooo#ooo#o#o#ooo#oo#oooooo#oooo#oo
+ooooooo#oooo#oo####oooooo#oooo#oooo##o#o#ooooo#o####.##oooo#
+ooo#oooo##oooooooooooooooooooooooo##ooo#o#o#oooo#oo######o##
+o##oo##ooo##oo#o#o#oo#oooo#ooooo#o##o##ooo#ooo#ooo##o##oo##o
+oooooo##oo####ooo#.#oo#oooooo#ooooo##ooooo#####ooo#ooooooooo
+o#oo###oooooo##o#o#oo##oooo#ooooo#o#ooo#oooooooooooo#ooo#ooo
+ooo#oo#o#ooooo##oo#ooooooooooo#oooooo##.#oo#oooooo#ooooooo#o
+o#oo#oo###oo#oooo##oo###o#oooo#oooo##o##o###ooo##ooooo#oo#oo
+oooo#o#oooo##o#o##oooooooooo#oo#oooo#oooooooooo#oooooooooooo
+ooooooooo#oooooooooooo#ooo#oooo#ooooooooo#ooo##oo#ooo#oo#oo#
+ooo##ooooooo#o#oo##oo#oooooo#ooo#oooo#o##oo#oooooo#oooooo###
+ooo##oooooo#oo#o#oo####o###ooooo#o#oooo#oooo#o#ooooo#ooooooo
+ooooooooo###o#oooo#o#ooo#oooooooooooo#oo#oooo#ooo#oooo#oo###
+ooo#o#ooooo#ooo#oooo##oo#oooo#ooo#ooooooooooo##oo#ooo#oooooo
+oooooo##ooo#oo###o##ooo#oooo#oo####oo#ooo#o##oooo#o#ooooo#oo
+#oo#o#o##oo#oooooo#oooo##ooo#o###ooooo#ooooo#o#ooooooo#ooooo
+oo#oooo#oooooo#o#o#o#ooo##o#oo##oo#o#ooooo#ooo#ooo###oo#o#o#
+oooooo#ooo##ooooo#o#oooo#ooo#oooo#.##oo#oooooo#oo#oooo#.#.#.
+oooooooo#o#ooooo##oooo##oooooooooo#.#ooo##o##o#oooo#oo#.....
+ooooo#oooo#ooooooo#oo#o#ooo#ooooo###.#oo#ooo#ooo#ooooo##....
+o###oo#ooo#oooooooo#ooooooo##oooo#oo#####ooo###ooo##oooo####
+o#ooooooooooo#ooooo##oooooooooooooo#ooooooo##ooo####oo#o##.#
+ooooooooo###oooo#oooo#oooo#ooooooo#oo##ooo#oo##oooooooooo#..
+oooooooooooooo#o#o#oo##ooo#oooooooooo###ooo#ooooooo#ooo#o#..
+o#oooo##ooo###ooo##o#oo#ooo#o#oooooooo#oooo##oo##oo#oo#.#..#
+#oo#o#.#o#ooo##ooo#ooo###oo#ooooo####ooooooooooo#oo#oo##....
+.#oo#o##oooo#oo##oooooo#.#oooo#ooo#ooooooo####oooooo#o#.....
+.#o#ooo#ooo#.#oooo#o##o###ooo#.#oo#oo##ooo#oooo##ooo#oo#..#.
+###oo#oooo###.#o#ooooooooo#oo##ooo#oo#ooo##oooo#oooooo#...#.
+#oooo#oo#o#oo#ooooooo#o##o#o#o#oo#ooo#ooo##o#oooooo###.#.##.
+#ooo#oooo#oo#oo##oooooo##ooo#ooooo#ooooooooo#oooo#oooo#o#oo#
+###o#ooo#oo###oo#ooooooo#ooooo#oooo##ooooo###o##o#ooooooooo#
+#..#o#o#oo#o#oooooooooo#ooo##o#o#oooo##oo##oo#oo#ooo#ooo#o##
+..#ooo#.#ooo#ooo##o#oo#ooo#oo#o#.#oooooooooo##oooo#o#ooooooo
+###oooo#oooooooo##oooooooooooooo##oooooooo#oooo##o#o#o#o#o#o
+.#oo##oo#o##ooo#oo##o#oooo#oo#o#ooo#o##o#o#oooooo#ooo#oo#oo#
+##oooo##ooo#ooo#ooooo#ooooo#oooooooo#oo###ooooooooo##oo#.###
+ooo#ooo##oo#ooo##oooooo#oooooo#o#oo##oooo#oooooooooooo###.#.
+ooo#oo#ooo#ooo#oooooooooo##ooo##oooooooooooooooo#ooo##....#.
+o#ooo##oooo#oooooooo#oooo##ooo#ooo#oooo####o#o#ooooo#..#...#
+#ooooooo#ooooooo#ooo#oooooooooooo#oooooooo#oooooooo#.##..#.#
+o#oooooo#ooooo###ooooooo#ooo##o#oo#oo#oo#####ooooo##...#...#
+oo#o#oooo##oooo##ooooo#ooooo#ooo#o#o#ooooooooooo#oo#..##....
+oooo#oo#o#.##o#ooo#ooooooo#o##oooooo#o#o#oo#ooo##o#.....####
+oo#ooo#oo##.#o##oo##ooooo#ooooo#o#ooooooo#oo#o#ooo###...#...
+#oo#ooooo#.###ooo#oooo#o#oooo###ooo#oo#ooo#ooooooo##.#....#G

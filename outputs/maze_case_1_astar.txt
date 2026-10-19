@@ -1,0 +1,32 @@
+Algorithm: A*
+Case: 1
+Grid: 20 x 20
+Obstacle density: 8.8%
+Path found: True
+Path steps: 38
+Expanded nodes: 345
+Expanded node density: 86.25%
+Runtime: 0.7523 ms
+
+Legend: S=start, G=goal, #=wall, o=explored, *=path
+
+S******************o
+o#ooooooooo#oooooo*o
+oooooooooooooo#oo#*o
+oooo#ooo#ooooooooo*o
+ooooooooo#oooo#ooo*o
+ooooooooooooo#.ooo*o
+#oooooooooooo#.ooo*#
+.oooo#ooooo#ooooo#*o
+#oooooooo#ooooo#oo*o
+.ooooo#ooooooooooo*#
+.oooooo#ooooo#oooo*#
+.ooooooooo#o#.oooo**
+.oooooooooooooo#ooo*
+.o#ooooooooo#oooooo*
+.ooooo#ooooooooooo#*
+.oooooooooooo#ooooo*
+.#ooooooooooooooooo*
+..ooooooooooooooooo*
+..#oooooooo#ooooooo*
+...ooooooooooooooo#G

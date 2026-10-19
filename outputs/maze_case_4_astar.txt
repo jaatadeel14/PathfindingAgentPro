@@ -1,0 +1,47 @@
+Algorithm: A*
+Case: 4
+Grid: 35 x 35
+Obstacle density: 24.5%
+Path found: True
+Path steps: 70
+Expanded nodes: 575
+Expanded node density: 46.94%
+Runtime: 1.1431 ms
+
+Legend: S=start, G=goal, #=wall, o=explored, *=path
+
+S******#ooooooooo#oo#..#..####.....
+#ooooo********ooooo#.##..#.#...###.
+.#ooooooooooo*#ooooo#...#........#.
+.ooo#o#ooooo#*oo##o##...#.....##...
+.oooo##ooo#oo*ooo##....#...#.##...#
+.ooooo#o#oooo*oo#.....#.#.#........
+.oo#oo##ooooo*o#...#......#.....#..
+#oo#oo#o#o#oo*#.##.##.#...#........
+#o#oooooo#ooo**#ooo*******#.....#..
+.#.o#ooooooooo******#oo#o****###...
+...#.#o#oo##o#o##oo#o#oooooo*#.....
+.#.###ooooooo##..#ooo#o###oo***oo#.
+.#...ooooooooo###oooooo#.#oooo*oooo
+#....#o#oooooo#oooo##o#...o##o*oo#o
+.....oo##ooooooo##ooo#..#.#..o*oo#o
+.....ooo#ooo###ooo#ooo#......o*oo##
+...##oo#ooo#.#oo#oo###...#.##o*o##.
+...#.#oooo#...oo#ooo#.#......o*###.
+.#..#.#o#o#...ooooooo#.......o***oo
+.###.#ooo##...ooooo#oo#......#oo*oo
+#.#...##o#oo##ooooooo##..#.#..#o*o#
+.#..#..oooooooooo##oooo#o#..#..#*#.
+.......ooooooooooooo#oooo#......**o
+...#.#.#o#o#ooooo#oooo#o#.#.####o*o
+.#.#...oooo#o##oo#ooo#.#.#......#*o
+.#.....o#oooooooooooo#ooo#......#*o
+.##...#ooooo#ooo#ooooooo###...#..*#
+..#....#o##o#oooo#ooooo#oooooo##.**
+..#.....ooooooo##oo#ooooo#oooooo##*
+....#.#.oo#o###ooooo#oooo##o##oo#.*
+.#......##oooooooooo#o#oooo#ooo#..*
+.....#....oooooo##oo#ooooooooooo##*
+.......#..oooo###ooo#oooo#o#oo#o#.*
+..........#o#oooo#oo#o#ooooo#oooo#*
+##...##....#oooooooooooooooooo###.G

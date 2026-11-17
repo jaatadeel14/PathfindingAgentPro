@@ -1,5 +1,5 @@
-"""Reproducible batch benchmarks for multiple maze sizes and densities."""
-import csv, json, random, time
+"""Reproducible batch benchmarks for multiple maze sizes and densities."""  
+import csv, json, random, time       // Start of the program
 from pathlib import Path
 from src.pathfinding import search
 
